@@ -1,0 +1,143 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.popup {
+    height: 15rem;
+    width: 25rem;
+    background-color: #333333;
+}
+
+.user-your-key__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.user-your-key__key-input {
+    text-decoration: none;
+    width: 90%;
+    height: 2rem;
+}
+
+.user-your-key__next-button {
+    text-decoration: none;
+    height: 2rem;
+    width: 2rem;
+    background-color: #333333;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.app__container {
+    margin: 0 auto;
+    width: 80%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-center {
+    justify-content: center;
+}
+
+.input-field {
+    text-decoration: none;
+    width: 90%;
+    height: 2rem;
+}
+
+.app__header {
+    height: 25%;
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__title {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    height: 2rem;
+    min-width: 2rem;
+    background-color: #333333;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.button--disabled {
+    background-color: #2c2c2c;
+    color: #999999;
+    border: 1px solid #999999;
+}
+
+.button:hover {
+    background-color: #4d4d4d;
+    cursor: pointer;
+}
+
+.separator {
+    color: white;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.error {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.inline-error {
+    color: red;
+}
+
+.icon {
+    display: flex;
+    font-size: 1rem;
+}
+
+.link {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
