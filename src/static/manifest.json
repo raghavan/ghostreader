@@ -28,7 +28,6 @@
   },
   "permissions": [
     "storage",
-    "unlimitedStorage",
     "tabs"
   ],
   "content_scripts": [
