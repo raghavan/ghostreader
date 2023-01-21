@@ -49,13 +49,6 @@ function UseYourKey() {
                         </button>
                 }
             </div>
-            <div className="link"
-                 onClick={() => chrome.tabs.create({url: "https://user-images.githubusercontent.com/46283833/212459128-cc380dba-d2ab-402c-896a-64c893f75cd7.mp4"})}
-            >How to generate OpenAI API key?
-            </div>
-            <div className="link"
-                 onClick={() => chrome.tabs.create({url: "https://beta.openai.com/account/api-keys"})}
-            >OpenAI - Generate API key</div>
             <div className="inline-error">{error}</div>
         </div>
     </div>
